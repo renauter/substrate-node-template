@@ -138,10 +138,10 @@ fn testnet_genesis(
 		node_authorization: NodeAuthorizationConfig {
 		    nodes: vec![
 		        (
-                    OpaquePeerId(bs58::decode("12D3KooWBmAwcd4PJNJvfV89HwE48nwkRmAgo8Vy3uQEyNNHBox2").into_vec().unwrap()), endowed_accounts[0].clone()
+                    OpaquePeerId(bs58::decode("12D3KooWS6YvnjsocYT8sMD5cn5QKaFxXRftCD3jRz1g4CUbL1LC").into_vec().unwrap()), endowed_accounts[0].clone()
                 ),
 		        (
-		            OpaquePeerId(bs58::decode("12D3KooWQYV9dGMFoRzNStwpXztXaBUjtPqi6aU76ZgUriHhKust").into_vec().unwrap()), endowed_accounts[1].clone()
+		            OpaquePeerId(bs58::decode("12D3KooWP6s8kRhH8kQD2LYzdkgi5syGWCqX9XEtFasnWFeHd25u").into_vec().unwrap()), endowed_accounts[1].clone()
                 ),
 		    ],
  		},
